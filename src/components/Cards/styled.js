@@ -38,6 +38,10 @@ export const Button = styled.div`
 export const Picture = styled.img`
   width: 100px;
   height: 150px;
+  @media only screen and (max-width: 510px) {
+    width: 70px;
+    height: 80px;
+  }
 `;
 
 export const Article = styled.div`
@@ -51,11 +55,15 @@ export const Article = styled.div`
   justify-content: space-around;
   box-shadow: 1px 1px 1px #fff;
   background-color: #fff;
-
+  min-width: 200px;
   .title {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+  }
+
+  @media only screen and (max-width: 510px) {
+    padding: 3px;
   }
 `;
 export const ContainerButton = styled.div`
@@ -64,15 +72,16 @@ export const ContainerButton = styled.div`
     color: #ffcc03;
     font-size: 50px;
   }
+  @media only screen and (max-width: 510px) {
+    flex-direction: column;
+  }
 `;
 
 export const Pagination = styled.div`
-  position: relative;
-  right: 30px;
   color: #386abb;
   border-radius: 50px;
   font-size: 0.8em;
-  margin-left: 5em;
+  margin: 0 10px;
   cursor: pointer;
   font-weight: bold;
   transition: transform 0.9s;
