@@ -60,6 +60,8 @@ Rodar o projeto:
 7. Icones com react-icons.
 </div>
 
+# `Você pode consultar o projeto rodando em:` https://vmpokedex.surge.sh/
+
 # `Autor`
 
 Vinícius Garcia Morgan de Aguiar</br>
