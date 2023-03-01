@@ -56,6 +56,8 @@ Rodar o projeto:
 3. Consumo da API POKEAPI utilizando Axios.
 4. Roteamento utilizando React Router Dom.
 5. Estilos com Styled-components.
+6. Toast para notificar successo ou erro.
+7. Icones com react-icons.
 </div>
 
 # `Autor`
